@@ -1,0 +1,44 @@
+#audienceProfileSheet {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    gap: 10px;
+    justify-content: start;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 50px; /* Fixed initial height */
+}
+
+.card.expanded {
+    height: auto; /* Height on hover */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-table {
+    display: none; /* Initially hide the table */
+}
+
+.card.expanded .card-table {
+    display: block; /* Show table on hover */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
