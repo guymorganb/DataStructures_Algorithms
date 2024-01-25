@@ -31,7 +31,7 @@ Clone the repository to your local machine to get started:
 ## Contact
 
 If you have questions dont hesitate to reach me at guymorganb@gmail.com
-give me a follow on instagram if your in the neighborhood! @guyycodes Id love to keep making more useful things. 
+give me a follow on instagram if your in the neighborhood! @guyycodes, Id love to keep making more useful things. 
 
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
