@@ -1,6 +1,7 @@
 # Data Structures and Algorithms in Java and JavaScript
 
-This repository is a comprehensive collection of implementations for various data structures and algorithms in both Java and JavaScript. It serves as a resource for learning and applying data structures and algorithmic techniques in both languages, with a range of examples and practical applications.
+This repository is a comprehensive collection of my practice implementations for various data structures and algorithms in both Java and JavaScript. It serves as a resource for learning and applying data structures and algorithmic techniques in both languages, with a range of examples and practical applications.
+- If you found this helpful consider sharing & following me on instagram wher eive posted lessons for all this and more @guyycodes.
 
 ## Projects
 
