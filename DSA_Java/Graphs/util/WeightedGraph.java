@@ -8,12 +8,15 @@ public class WeightedGraph extends Graph{
         for(Vertex v: vertexSet()) {
             weight.put(v, new HashMap<>());
         }
-        for(String e: edges){
-            String[] endpoints = e.split(",");
-            if(endpoints.length == 3)
+        for(String e: edges){ // go over all the edges
+            // because we have weights, we will have (vertex,vertex,weight) so we need to split on the commas
+            String[] endpoints = e.split(","); 
+            if(endpoints.length == 3){ // endpoints[0] is the 'from' index, endpoints[1] is the 'to' index, and endpoints[2] is the weight
                 setWeight(endpoints[0], endpoints[1], Integer.parseInt(endpoints[2]));
-            else
+            }
+            else{ // otherwise, theres only 2 peices and its an unweighted graph, the weight of every edge it 1
                 setWeight(endpoints[0], endpoints[1], 1);
+            }
         }
     }
     public int getWeight(String from, String to) {
